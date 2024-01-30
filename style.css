@@ -60,6 +60,7 @@ footer {
     max-width: 80%; /* Adjust the value as needed */
     width: 800px;
     margin: 0 auto; /* Center the text horizontally within the section */
+    margin-bottom: 20px; /* Adjust the value as needed for the desired spacing */
 }
 
 /* Add styles for blog post containers */
