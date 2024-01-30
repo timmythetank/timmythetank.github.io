@@ -39,6 +39,11 @@ section {
     text-align: center;
 }
 
+.profile-image {
+    max-width: 100%; /* Make sure the image does not exceed its container's width */
+    border-radius: 50%; /* Optional: Add a border-radius for a circular profile picture */
+}
+
 footer {
     background-color: #003264; 
     color: #fff;
