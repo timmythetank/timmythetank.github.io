@@ -35,8 +35,9 @@
         <!-- Add more articles for additional blog posts -->
 
         <script>
-            // JavaScript to dynamically set the timestamp for the first blog post
-            document.getElementById('timestamp1').innerText = new Date().toLocaleString();
+            // JavaScript to set the fixed timestamp for the first blog post
+            var post1Timestamp = new Date('2024-01-30T22:13:00'); // Set the publication time for the first post
+            document.getElementById('timestamp1').innerText = 'Posted: ' + post1Timestamp.toLocaleString();
         </script>
     </section>
 
