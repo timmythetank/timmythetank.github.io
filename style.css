@@ -40,8 +40,8 @@ section {
 }
 
 .profile-image {
-    max-width: 20%; /* Make sure the image does not exceed its container's width */
-    width: 20%;
+    max-width: 80%; /* Make sure the image does not exceed its container's width */
+    width: 600px;
     height: auto;
     border-radius: 50%; /* Optional: Add a border-radius for a circular profile picture */
 }
@@ -57,6 +57,25 @@ footer {
 #ageText,
 #ageText span,
 #home p {
-    max-width: 600px; /* Adjust the value as needed */
+    max-width: 80%; /* Adjust the value as needed */
+    width: 800px;
     margin: 0 auto; /* Center the text horizontally within the section */
+}
+
+/* Add styles for blog post containers */
+.blog-post-container {
+    max-width: 80%;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Add styles for timestamps */
+.timestamp {
+    text-align: right;
+    font-style: italic;
+    color: #888;
 }

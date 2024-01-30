@@ -24,18 +24,20 @@
     </header>
 
     <section class="blog-posts">
-        <article>
-            <h2>Blog Post 1</h2>
-            <p>Content of Blog Post 1 goes here...</p>
-        </article>
-
-        <article>
-            <h2>Blog Post 2</h2>
-            <p>Content of Blog Post 2 goes here...</p>
+        <article class="blog-post-container">
+            <h2>First blog post</h2>
+            <p>On this blog I will from time to time share updates concerning both my studies, work and personal life.</p>
+            
+            <!-- Timestamp section -->
+            <div class="timestamp" id="timestamp1"></div>
         </article>
 
         <!-- Add more articles for additional blog posts -->
 
+        <script>
+            // JavaScript to dynamically set the timestamp for the first blog post
+            document.getElementById('timestamp1').innerText = new Date().toLocaleString();
+        </script>
     </section>
 
     <footer>
