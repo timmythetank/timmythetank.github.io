@@ -40,8 +40,8 @@ section {
 }
 
 .profile-image {
-    max-width: 80%; /* Make sure the image does not exceed its container's width */
-    width: 80%;
+    max-width: 50%; /* Make sure the image does not exceed its container's width */
+    width: 50%;
     height: auto;
     border-radius: 50%; /* Optional: Add a border-radius for a circular profile picture */
 }

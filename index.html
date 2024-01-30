@@ -25,7 +25,15 @@
 
     <section id="home">
         <h2>About me</h2>
-        <p>Hi, my name is Måns Jacobsson and I am a 22 year old man currently pursuing a M.Sc in Engineering Mathematics at Lund University.</p>
+        <p> year old man currently pursuing a M.Sc in Engineering Mathematics at Lund University.</p>
+        <!-- Display Age Dynamically -->
+        <p id="ageText">Hi and welcome to my website. My name is Måns Jacobsson and I am a <span id="age"></span></p>
+        <p> year old man currently pursuing a M.Sc in Engineering Mathematics at Lund University.
+             I am currently in my third year and will be finsishing my bachelor in the summer of 2024. 
+             Outside my studies enjoy playing rugby, hiking, climbing nd skiing. 
+             On this website I will share both my proffesional and personal avancements in life. 
+             Feel free to contact me via my email below.
+        </p>
         <img src="mans_cv.jpg" alt="Måns Jacobsson" class="profile-image">
         <h2>Contact info</h2>
         <p>maans.jacobsson@gmail.com</p>
@@ -34,6 +42,28 @@
     <footer>
         <p>&copy; 2024</p>
     </footer>
+
+    <script>
+        // Function to calculate age based on birthdate
+        function calculateAge(birthdate) {
+            var today = new Date();
+            var birthDate = new Date(birthdate);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var monthDiff = today.getMonth() - birthDate.getMonth();
+
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+
+            return age;
+        }
+
+        // Set your birthdate
+        var birthdate = "2001-03-08"; // Replace with your actual birthdate
+
+        // Display age dynamically
+        document.getElementById("age").textContent = calculateAge(birthdate);
+    </script>
 
 </body>
 </html>
