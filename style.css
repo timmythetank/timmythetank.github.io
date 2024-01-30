@@ -40,8 +40,8 @@ section {
 }
 
 .profile-image {
-    max-width: 50%; /* Make sure the image does not exceed its container's width */
-    width: 50%;
+    max-width: 20%; /* Make sure the image does not exceed its container's width */
+    width: 20%;
     height: auto;
     border-radius: 50%; /* Optional: Add a border-radius for a circular profile picture */
 }
@@ -51,4 +51,12 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+/* Set a maximum width for the text within the section */
+#ageText,
+#ageText span,
+#home p {
+    max-width: 600px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the text horizontally within the section */
 }
