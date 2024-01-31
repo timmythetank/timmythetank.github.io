@@ -81,6 +81,13 @@ footer {
     color: #888;
 }
 
+bodyrugby {  /* testing a specific body for rugby */
+    font-family: 'Arial', sans-serif;
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Distributing space between the two main containers */
+    padding: 20px;
+}
+
 #career-container {
     max-width: 45%;
     box-shadow: 0 0 10px #003264;
