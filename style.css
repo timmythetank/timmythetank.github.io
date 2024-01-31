@@ -80,3 +80,39 @@ footer {
     font-style: italic;
     color: #888;
 }
+
+#career-container {
+    max-width: 45%;
+    box-shadow: 0 0 10px #003264;
+    background-color: #f5f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#career-info h2 {
+    color: #006400;
+}
+
+#career-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#career-info li {
+    margin-bottom: 10px;
+}
+
+#career-info p {
+    line-height: 1.4;
+}
+
+#career-images {
+    max-width: 45%;
+    text-align: center;
+}
+
+#career-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
