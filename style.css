@@ -81,21 +81,14 @@ footer {
     color: #888;
 }
 
-bodyrugby {  /* testing a specific body for rugby */
-    font-family: 'Arial', sans-serif;
-    display: flex; /* Using flexbox for layout */
-    justify-content: space-between; /* Distributing space between the two main containers */
-    padding: 20px;
-}
-
 #career-container {
-    max-width: 45%;
-    box-shadow: 0 0 10px #003264;
-    background-color: #f5f5f5f5;
+    max-width: 80%;
+    width: 800px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    box-shadow: 0 0 10px #003264;
+    background-color: #f5f5f5f5;
 }
 
 #career-info h2 {
