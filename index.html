@@ -1,5 +1,3 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +23,6 @@
 
     <section id="home">
         <h2>About me</h2>
-        <!-- Display Age Dynamically -->
         <p id="ageText">My name is Måns Jacobsson and I am a <span id="age"></span>-year-old
              student pursuing a M.Sc. in Engineering Mathematics at Lund University.
              Currently in my third year, I am set to complete my bachelor's degree in the summer of 2024.
@@ -35,12 +32,11 @@
              at Lund University. My academic interests include mathematical modelling, machine learning, and statistics.
              Outside my studies, I am passionate about rugby, hiking, climbing, and skiing.
              On this website, I will share updates and insights related to both my professional and personal life. 
-             Please feel free to contact med via the email provided below.  
-            
+             Please feel free to contact me via the email provided below.  
         </p>
         <img src="mans_cv.jpg" alt="Måns Jacobsson" class="profile-image">
         <h2>Contact info</h2>
-        <p>maans.jacobsson@gmail.com</p>
+        <p><a href="mailto:maans.jacobsson@gmail.com">maans.jacobsson@gmail.com</a></p>
     </section>
 
     <footer>
@@ -55,7 +51,7 @@
             var age = today.getFullYear() - birthDate.getFullYear();
             var monthDiff = today.getMonth() - birthDate.getMonth();
 
-            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+            if (monthDiff < 0 || (monthDiff === 0 and today.getDate() < birthDate.getDate())) {
                 age--;
             }
 
