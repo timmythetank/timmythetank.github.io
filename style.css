@@ -46,6 +46,19 @@ section {
     border-radius: 50%; /* Optional: Add a border-radius for a circular profile picture */
 }
 
+.blog-image {
+    max-width: 80%; /* Make sure the image does not exceed its container's width */
+    width: 600px;
+    height: auto;
+    border-radius: 0%; /* Optional: Add a border-radius for a circular profile picture */
+}
+.blog-image-small {
+    max-width: 80%; /* Make sure the image does not exceed its container's width */
+    width: 400px;
+    height: auto;
+    border-radius: 0%; /* Optional: Add a border-radius for a circular profile picture */
+}
+
 footer {
     background-color: #003264; 
     color: #fff;

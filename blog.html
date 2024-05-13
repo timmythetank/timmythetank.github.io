@@ -25,6 +25,36 @@
 
     <section class="blog-posts">
         <article class="blog-post-container">
+            <h2>1 week to dealine</h2>
+            <p>Today marks the 1 week mark for the deadline of our project for the 2024 IEEE Student Design Contest. 
+                With a lot still to be done it is going to be a hectic week trying to get everything done in time. 
+                But with a lot of progress last week I am confident that we will get it done. 
+            </p>
+            <!-- Timestamp section -->
+            <div class="timestamp" id="timestamp4"></div>
+        </article>
+        <article class="blog-post-container">
+            <h2>Ericsson Research Grant</h2>
+            <p>Today I learned that I am one of the recipients of the Ericsson Research Grant.
+                The grant is suppose to help was awarded to help us fund our tri to Florence, Italy for the 2024 IEEE Student Design Contest
+                where we will be presenting the PICC device.  
+            </p>
+            <img src="ericsson_logo.png" alt="Måns Jacobsson" class="blog-image-small">
+            <!-- Timestamp section -->
+            <div class="timestamp" id="timestamp3"></div>
+        </article>
+        <article class="blog-post-container">
+            <h2>2024 IEEE AP-S Student Design Contest</h2>
+            <p>Today we got the exciting new that we are 1 of the 6 finalist teams in the <a href="https://2024.apsursi.org/sdc.php">2024 IEEE Student Design Contest</a>. 
+                This mean that we get funding to build our project and travel to Florence, Italy this coming summer to present
+                our project and compete against the other teams.
+                If you want to learn more about our project and follow our building process, you can visit our website at <a href="https://picc-group.github.io/index.html">https://picc-group.github.io/index.html</a>.
+            </p>
+            <img src="apsursi.png" alt="Måns Jacobsson" class="blog-image">
+            <!-- Timestamp section -->
+            <div class="timestamp" id="timestamp2"></div>
+        </article>
+        <article class="blog-post-container">
             <h2>First blog post</h2>
             <p>On this blog I will from time to time share updates concerning both my studies, work and personal life.</p>
             
@@ -36,7 +66,13 @@
 
         <script>
             // JavaScript to set the fixed timestamp for the first blog post
-            var post1Timestamp = new Date('2024-01-30T22:13:00'); // Set the publication time for the first post
+            var post4Timestamp = new Date('2024-05-13T13:20:00'); // Set the publication time for the fourth post
+            document.getElementById('timestamp4').innerText = 'Posted: ' + post1Timestamp.toLocaleString();
+            var post3Timestamp = new Date('2024-05-03T09:15:00'); // Set the publication time for the third post
+            document.getElementById('timestamp3').innerText = 'Posted: ' + post1Timestamp.toLocaleString();
+            var post2Timestamp = new Date('2024-01-25T08:15:00'); // Set the publication time for the second post
+            document.getElementById('timestamp2').innerText = 'Posted: ' + post1Timestamp.toLocaleString();
+            var post1Timestamp = new Date('2024-01-20T22:13:00'); // Set the publication time for the first post
             document.getElementById('timestamp1').innerText = 'Posted: ' + post1Timestamp.toLocaleString();
         </script>
     </section>
